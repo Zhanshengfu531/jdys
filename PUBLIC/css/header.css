@@ -1,0 +1,37 @@
+.header{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+.header .fl li{
+    float: left;
+    margin-right: 10px;     
+}
+.header .fr{
+    float: right;     
+}
+.header .fr li{
+    float: left;  
+    margin-right: 10px;  
+}
+.header .fl li span{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle
+}
+.header .fl li .sy{
+   background: url(../img/header/sy.png) no-repeat;
+   background-size: 16px 14px;
+   margin-right:5px;
+}
+.header .fl li .dz{
+   background: url(../img/header/dz.png) no-repeat;
+   background-size: 14px;
+}
+.header li a{
+    color: #999999;
+    font-size: 12px;
+    line-height: 30px; 
+}
